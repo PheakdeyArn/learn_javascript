@@ -9,34 +9,38 @@
 </head>
 <body>
 
-    <h1>Simple Calculator</h1>
+    <div class="container">
+        <h1>Simple Calculator</h1>
  
-    <form id="calForm" name="cal">
-        <input name="display" class="display" > <br>
+        <form id="calForm" name="cal">
+            <input name="display" class="display" > <br>
 
-        <input type="button" value="7" onclick="cal.display.value+='7'">
-        <input type="button" value="8" onclick="cal.display.value+='8'"> 
-        <input type="button" value="9" onclick="cal.display.value+='9'">
-        <input type="button" value="+" onclick="cal.display.value+='+'"> <br>
+            <input type="button" value="7" onclick="cal.display.value+='7'">
+            <input type="button" value="8" onclick="cal.display.value+='8'"> 
+            <input type="button" value="9" onclick="cal.display.value+='9'">
+            <input type="button" value="+" onclick="cal.display.value+='+'"> <br>
 
-        <input type="button" value="4" onclick="cal.display.value+='4'">
-        <input type="button" value="5" onclick="cal.display.value+='5'">
-        <input type="button" value="6" onclick="cal.display.value+='6'">
-        <input type="button" value="-" onclick="cal.display.value+='-'"> <br>
+            <input type="button" value="4" onclick="cal.display.value+='4'">
+            <input type="button" value="5" onclick="cal.display.value+='5'">
+            <input type="button" value="6" onclick="cal.display.value+='6'">
+            <input type="button" value="-" onclick="cal.display.value+='-'"> <br>
 
-        <input type="button" value="1" onclick="cal.display.value+='1'">
-        <input type="button" value="2" onclick="cal.display.value+='2'">
-        <input type="button" value="3" onclick="cal.display.value+='3'">
-        <input type="button" value="x" onclick="cal.display.value+='x'"> <br>
+            <input type="button" value="1" onclick="cal.display.value+='1'">
+            <input type="button" value="2" onclick="cal.display.value+='2'">
+            <input type="button" value="3" onclick="cal.display.value+='3'">
+            <input type="button" value="x" onclick="cal.display.value+='*'"> <br>
 
-        <input type="button" value="0" onclick="cal.display.value+='0'">
-        <input type="button" value="." onclick="cal.display.value+='.'">
-        <input type="button" value="C" onclick="cal.display.value+=''">
-        <input type="button" value="&#247;" onclick="cal.display.value+='/'"> <br>
-        <input type="button" value="=" onclick="cal.display.value=eval(cal.display.value)">
+            <input type="button" value="0" onclick="cal.display.value+='0'">
+            <input type="button" value="." onclick="cal.display.value+='.'">
+            <input type="button" value="C" onclick="cal.display.value=''">
+            <input type="button" value="&#247;" onclick="cal.display.value+='/'"> <br>
+            <input id="eqaul" type="button" value="=" onclick="cal.display.value=eval(cal.display.value)">
 
-    </form>
+        </form>
 
+    </div>
+
+    
     <script src="script.js"></script>
 </body>
 </html>

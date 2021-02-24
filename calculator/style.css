@@ -1,5 +1,38 @@
 .display{
-    width: 300px;
+    width: 450px;
     height: 80px;
     text-align: center;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input
+{
+    
+    width: 100px;
+    height: 75px;
+    font-size: 55px;
+    border-radius: 10px;
+    margin: 7px;
+    background-color:#000;
+    color: #fff;
+    border-style: none;
+}
+
+#eqaul 
+{
+    width: 200px;
+    margin-left:135px;
+}
+
+#calForm
+{
+    margin-top: 10px;
 }
