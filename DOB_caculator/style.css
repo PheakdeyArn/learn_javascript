@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 850px;
+    height: 300px;
+
+    padding: 30px;
+    margin-top: 50px;
+
+}
+
+h1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    width: 850px;
+    font-weight: 800;
+    padding: 20px;
+    background-color: #1B9393 ;
+    color: #fff;
+
+}
+
+.dateCal
+{
+    /* display: flex; */
+    margin: 20px 0px;
+    font-size: 30px;
+
+
+}
+
+.dateCal input
+{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    
+}
+
+#submit-date
+{
+    width: 350px;
+    height: 45px;
+
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 0px;
+    margin-left: 200px;
+    border-radius: 10px;
+    background-color: #58D68D;
+    color: #fff;
+}
+
+#message
+{
+    font-size: 45px;
+}
+
+
