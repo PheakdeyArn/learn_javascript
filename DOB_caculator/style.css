@@ -19,7 +19,6 @@ body
 
     padding: 30px;
     margin-top: 50px;
-
 }
 
 h1
@@ -37,11 +36,8 @@ h1
 
 .dateCal
 {
-    /* display: flex; */
     margin: 20px 0px;
     font-size: 30px;
-
-
 }
 
 .dateCal input
@@ -49,7 +45,6 @@ h1
     width: 150px;
     height: 40px;
     font-size: 20px;
-    
 }
 
 #submit-date
