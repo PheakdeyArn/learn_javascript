@@ -26,7 +26,7 @@ submitBtn.addEventListener("click", function(evt)
     let weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
     // create a variable to strore all the date
-    var dateIs = new Date(parsedYear, parsedMonth, parsedDay);
+    let dateIs = new Date(parsedYear, parsedMonth, parsedDay);
 
     let weekdayIs = weekdays[dateIs.getDay()];
     let monthIs = months[parsedMonth];
