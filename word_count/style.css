@@ -19,9 +19,7 @@ body
     align-items: center;
 
     margin-top: 70px;
-    /* width: 800px; */
     padding: 20px;
-    /* background-color: antiquewhite; */
     border: 4px solid #82E0AA;
     box-shadow: #34495E;
     border-radius: 10px;
@@ -37,10 +35,8 @@ h1
     margin: 20px;
 }
 
-
 #str
 {
-
     width: 700px;
     height: 50px;
     font-size: 24px;
@@ -51,7 +47,6 @@ h1
     border: 2px solid #3498DB;
     color: #82E0AA;
     border-radius: 10px;
-
 }
 
 input::placeholder{
@@ -60,13 +55,11 @@ input::placeholder{
 
 #btn
 {
-    
     font-size: 24px;
     font-weight: 500;
     width: 200px;
     height: 40px;
     margin: 20px;
-    /* background-color: none; */
     background-color: Transparent;
     border: 2px solid #82E0AA;
     color: #3498DB;
@@ -75,8 +68,6 @@ input::placeholder{
 
 .out-frame
 {
-
-    /* background-color: blue; */
     margin: 20px;
     border: 2px solid #3498DB;
     border-radius: 10px;
@@ -87,12 +78,10 @@ input::placeholder{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
     width: 500px;
     height: 40px;
     margin: 15px;
     font-size: 28px;
     font-weight: 500;
     color: #82E0AA;
-   
 }
